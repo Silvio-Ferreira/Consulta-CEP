@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(199, 194, 194), rgb(168, 188, 231));
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__container{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   
+}
+
+.pesquisa__container > #rua, #bairro{   
+background-color: white;
+
+}
+
+.pesquisa__container {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+input {
+    border: 1px solid #0e0d0d;
+    margin-bottom: 20px;
+    pad: 0 10px;
+    height: 30px;
+    outline: none;
+}
